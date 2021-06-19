@@ -12,3 +12,8 @@ margin: 0;
     max-width: 1500px;
     margin: auto;
 }
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}

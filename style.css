@@ -4,3 +4,11 @@ body{
 font-family: 'Raleway', sans-serif;
 margin: 0;
 }
+
+
+.header{
+    display: grid;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+}

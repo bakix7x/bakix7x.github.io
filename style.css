@@ -9,6 +9,12 @@ a{
     text-decoration: none;
 }
 
+:root{
+    --main-blue: #0065fc;
+    --ligth-blue: #deebff;
+    --gray-background: #f2f2f2;
+}
+
 
 
 .header{

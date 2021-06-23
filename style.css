@@ -27,6 +27,8 @@ a{
 .header-nav{
     display: flex;
     align-items: center;
-    color: var(--main-blue);
+}
 
+.header-nav-link:hover{
+    color: var(--main-blue);
 }

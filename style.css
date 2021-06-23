@@ -22,7 +22,8 @@ a{
     align-items: center;
     max-width: 1500px;
     margin: auto;
-    grid-template-areas: "logo navlink register"
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "logo . navlink register";
 }
 
 .header-logo{

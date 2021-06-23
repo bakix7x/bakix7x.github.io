@@ -22,9 +22,15 @@ a{
     align-items: center;
     max-width: 1500px;
     margin: auto;
+    grid-template-areas: "logo navlink register"
+}
+
+.header-logo{
+    grid-area: logo;
 }
 
 .header-nav{
+    grid-area: navlink;
     display: flex;
     align-items: center;
 }
@@ -38,6 +44,7 @@ a{
 }
 
 .header-nav-link-register{
+    grid-area: register;
     padding: 2em;
     display: flex;
     align-items: center;

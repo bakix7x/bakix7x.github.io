@@ -31,10 +31,10 @@ a{
 
 .header-nav-link:hover{
     color: var(--main-blue);
-    border-top: var(--main-blue);
+    border-top: 3px solid var(--main-blue);
 }
 
 .header-nav-link-register:hover{
     color: var(--main-blue);
-    border-top: var(--main-blue);
+    border-top: 3px solid var(--main-blue);
 }

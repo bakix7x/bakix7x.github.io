@@ -28,6 +28,7 @@ a{
 
 .header-logo{
     grid-area: logo;
+    height: 3em;
 }
 
 .header-nav{
@@ -37,7 +38,7 @@ a{
 }
 
 .header-nav-link{
-    padding: 2rem; 
+    padding: 2em; 
     text-align: center; 
     font-weight: bold;
     border-top: 3px solid transparent;

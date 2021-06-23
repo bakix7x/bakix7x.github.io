@@ -29,6 +29,19 @@ a{
     align-items: center;
 }
 
+.header-nav-link{
+    padding: 2rem; 
+    text-align: center; 
+    font-weight: 500;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.header-nav-link-register{
+
+}
+
+
 .header-nav-link:hover{
     color: var(--main-blue);
     border-top: 3px solid var(--main-blue);

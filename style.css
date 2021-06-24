@@ -65,3 +65,75 @@ a{
     color: var(--main-blue);
     border-top: 3px solid var(--main-blue);
 }
+
+
+/*section recherche*/
+
+.main{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2em;
+}
+
+
+.search{
+    padding: 0;
+}
+
+.search-header-title{
+    margin-bottom: 0,5em;
+}
+
+.search-header-subtitle{
+    margin-bottom: 0,5em;
+    margin-top: 0;
+}
+
+.searchform{
+    display: inline-flex;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.searchform-icon{
+    background-color: #F2F2F2;
+  padding: 1em 1.25em;
+  border-radius: 1em 0 0 1em;
+  text-align: center;
+}
+
+.search-form-text-input {
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    width: 14em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Raleway", "Sans serif";
+}
+
+.search-form-text-input::placeholder {
+    font-family: "Raleway", "Sans serif";
+    font-size: 1em;
+    color: #00000069;
+  }
+
+.search-header-subtitle-input-web,.search-header-subtitle-input-mobil{
+    background-color: #0065FC;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 1em 1em 0;
+  padding: 0 1.5em;
+  font-family: "Raleway", "Sans serif";
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+
+
+

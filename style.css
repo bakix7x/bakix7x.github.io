@@ -102,7 +102,7 @@ a{
   text-align: center;
 }
 
-.search-form-text-input {
+.searchform-text-input {
     border-right: none;
     border-left: none;
     border-top: #F2F2F2 1px solid;
@@ -115,13 +115,13 @@ a{
     font-family: "Raleway", "Sans serif";
 }
 
-.search-form-text-input::placeholder {
+.searchform-text-input::placeholder {
     font-family: "Raleway", "Sans serif";
     font-size: 1em;
     color: #00000069;
   }
 
-.search-header-subtitle-input-web,.search-header-subtitle-input-mobil{
+.searchform-submit-input-web,.searchform-submit-input-mobil{
     background-color: #0065FC;
   color: white;
   font-weight: bold;
@@ -133,7 +133,98 @@ a{
   cursor: pointer;
 }
 
+.searchform-submit-input-mobil{
+    display: none;
+}
 
+/*filtres de recherche*/
+
+.search-filters{
+    display: flex;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+.search-filters-title{
+    margin: 0 2em 1em 0;
+  display: flex;
+  align-items: center;
+}
+
+.search-filters-input{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+    border: 2px solid #d9d9d9;
+    border-radius: 2em;
+    margin-bottom: 2em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-filters-input:last-child{
+    margin-right: 0;
+}
+
+.search-filters-input:hover{
+    box-shadow: inset 220px 0  var(--blue-light);
+    color: var(--main-blue);
+    border: 2px solid var(--blue-light);
+}
+
+.search-filters-icon{
+    background-color: #DEEBFF;
+  border-radius: 100%;
+  height: 3em;
+  width: 3em;
+  min-height: 3.5em;
+  min-width: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -2px;
+}
+
+.search-filters-icon-i{
+    color: var(--main-blue);
+}
+
+.search-filters-input-title{
+    margin: 0 1em;
+}
+
+
+.search-info{
+    display: flex;
+    align-items: center;
+    margin: 1em 0 2em 0;
+}
+
+.search-info-icon{
+    height: 2em;
+  width: 2em;
+  min-height: 2em;
+  min-width: 2em;
+  border: solid 1px #d9d9d9;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+}
+
+.search-info-icon-i{
+    color: var(--main-blue);
+}
+
+.search-info-text{
+    margin: 0;
+}
+
+
+/*section hébergemments*/
+
+.
 
 
 

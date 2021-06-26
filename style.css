@@ -7,6 +7,7 @@ margin: 0;
 
 a{
     text-decoration: none;
+    color:inherit;
 }
 
 :root{
@@ -224,7 +225,80 @@ a{
 
 /*section hébergemments*/
 
-.
+.hosting-main, .hosting-popular{
+    background-color: var(--gray-background);
+    border-radius: 1.5em;
+    padding: 2em;
+}
 
+.hosting{
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 6fr 3fr;
+}
+
+.hosting-main{
+    display: grid;
+    column-gap: 2em;
+    row-gap: 2em;
+}
+
+.hosting-main-header{
+    grid-column: 1/-1;
+}
+
+.hosting-main-header-title{
+    margin: 0;
+}
+
+.hosting-main-article{
+    background-color: white;
+    padding: 0,4em;
+    border-radius: 1.25em;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.hosting-main-article:hover{
+    transform: scale(1.03);
+}
+
+.hosting-main-article-figure{
+    margin: 0;
+}
+
+.hosting-main-article-figure-img{
+    height: 7em;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.hosting-main-article-figure-h3-title{
+    margin: 0.25em 0.75em 0 0.75em;
+}
+
+.hosting-main-article-price{
+    margin: 0.25em 0.75em 0.25em 0.75em;
+}
+
+.hosting-main-article-star{
+    margin: 0 0.75em 0.25em 0.75em;
+}
+.hosting-main-article-star-icon[data-active=true]{
+    color: var(--main-blue);
+}
+
+.hosting-main-article-star-icon[data-active=false]{
+    color: var(--gray-background);
+}
+
+.hosting-main-showmore{
+    font-weight: bold;
+}
 
 

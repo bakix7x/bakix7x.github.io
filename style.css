@@ -30,6 +30,7 @@ a{
 .header-logo{
     grid-area: logo;
     height: 3em;
+    padding: 0 2em;
 }
 
 .header-nav{
@@ -41,7 +42,7 @@ a{
 .header-nav-link{
     padding: 2em; 
     text-align: center; 
-    font-weight: bold;
+    font-weight: 500;
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 }
@@ -86,7 +87,7 @@ a{
 }
 
 .search-header-subtitle{
-    margin-bottom: 0,5em;
+    margin-bottom: 1.5em;
     margin-top: 0;
 }
 
@@ -253,7 +254,7 @@ a{
 
 .hosting-main-article{
     background-color: white;
-    padding: 0,4em;
+    padding: 0.4em;
     border-radius: 1.25em;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
   cursor: pointer;
@@ -262,7 +263,7 @@ a{
 }
 
 .hosting-main-article:hover{
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 .hosting-main-article-figure{
@@ -286,9 +287,14 @@ a{
     margin: 0.25em 0.75em 0.25em 0.75em;
 }
 
+.hosting-main-article-price-€{
+    font-weight: bold;
+}
+
 .hosting-main-article-star{
     margin: 0 0.75em 0.25em 0.75em;
 }
+
 .hosting-main-article-star-icon[data-active=true]{
     color: var(--main-blue);
 }
@@ -301,4 +307,85 @@ a{
     font-weight: bold;
 }
 
+.hosting-popular{
+    display: grid;
+  row-gap: 2em;
+  align-items: start;
+  grid-template-rows: auto repeat(3, 1fr);
+}
 
+.hosting-popular-title{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hosting-popular-article-a{
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+    overflow: auto;
+}
+.hosting-popular-article-div{
+    position: relative;
+  min-height: 100%;
+  width: 33%;
+  min-width: 33%;
+  max-width: 33%;
+}
+
+.hosting-popular-article-img{
+    border-radius: 1em 0 0 1em;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hosting-popular-info{
+    display: flex;
+  flex-direction: column;
+}
+
+.hosting-popularhosting-main-article{
+    height: 8.75rem;
+}
+
+
+
+.activity{
+    display: grid;
+  column-gap: 2em;
+  margin: 4em 0;
+}
+
+.activity-title{
+    grid-column: 1/-1;
+}
+
+.activity-place{
+    box-shadow: 0 0 20px rgba(0 0 0 0.2);
+  border-radius: 1em;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color:var(--gray-background);
+}
+
+.activity-place:hover{
+    transform: scale(1.01);
+}
+.activity-place-location{
+    position: relative;
+    flex: 1;
+}
+.activity-place-location-img{
+    position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.activity-place-titel{
+    margin: 1em;
+}

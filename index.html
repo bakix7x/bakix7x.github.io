@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Reservia</title>
     <script src="https://kit.fontawesome.com/73a6909c47.js" crossorigin="anonymous"></script>
 </head>
+
+
 <body>
+
+    <!--header-->
+
+
     <header class="header">
          <img class=" header-logo" src="images/logo/Reservia.svg" alt="logo Reservia">
          <nav class="header-nav">
@@ -25,7 +31,7 @@
     <main class="main">
 
 
-       
+       <!--section recherche-->
        
         <section class="search">
 
@@ -34,15 +40,22 @@
                 <p class=" search-header-subtitle"> En plein centre de la ville ou en pleine nature</p>
             </header>
 
-            <form class="searchform">
+
+            <!-- Formulaire de recherche -->
+
+            
+            <form class="searchform" action="#" method="post">
                 <div class="searchform-icon">
                     <i class="fas fa-map-marker-alt"></i>
                 </div>
-                <input class="searchform-text-input" type="text" name="research" id="research" placeholder="Marseille, France" size="1">
+                <input class="searchform-text-input" type="text" name="research" id="research" 
+                placeholder="Marseille, France" size="1">
                 <input class="searchform-submit-input-web" type="submit" value="Rechercher">
                 <button class="searchform-submit-input-mobil" type="submit"><i class="fas fa-search">
                 </i></button>
             </form>
+
+<!--filtre de recherche-->
 
 
             <div class="search-filters">
@@ -53,12 +66,14 @@
                     </div>
                     <span class="search-filters-input-title">Économique</span>
                 </div>
+                
                 <div class="search-filters-input">
                     <div class="search-filters-icon">
                         <i class="fas fa-child search-filters-icon-i"></i>
                     </div>
                     <span class="search-filters-input-title">Familial</span>
                 </div>
+                
                 <div class="search-filters-input">
                     <div class="search-filters-icon search-filters-icon-i">
                         <i class="fas fa-heart"></i>
@@ -83,7 +98,7 @@
 
 
        
-       
+       <!-- Section Hébergements -->
        
         <section class="hosting" id="hosting">
             <div class="hosting-main">
@@ -219,7 +234,7 @@
         <aside class="hosting-popular">
                     <h2 class="hosting-popular-title">Les plus populaires <i class="fas fa-chart-line"></i></h2>
                <article class="hosting-main-article hosting-popular-article">
-                <a class="hosting-popular-article-a"href="#">
+                <a class="hosting-popular-article-a" href="#">
                     <div class="hosting-popular-article-div">
                         <img class="hosting-popular-article-img"
                         src="images/hebergements/4_small/hôtel-le-soleil-du-matin.jpg"
@@ -240,7 +255,7 @@
             </article>
             
             <article class="hosting-main-article hosting-popular-article">
-                <a class="hosting-popular-article-a"href="#">
+                <a class="hosting-popular-article-a" href="#">
                     <div class="hosting-popular-article-div">
                         <img class="hosting-popular-article-img"
                         src="images/hebergements/4_small/au-coeur-de-l'eau-chambre-d'hôtes.jpg"
@@ -261,7 +276,7 @@
             </article>
 
             <article class="hosting-main-article hosting-popular-article">
-                <a class="hosting-popular-article-a"href="#">
+                <a class="hosting-popular-article-a" href="#">
                     <div class="hosting-popular-article-div">
                         <img class="hosting-popular-article-img"
                         src="images/hebergements/4_small/hôtel-tout-bleu-et-blanc.jpg"
@@ -297,7 +312,7 @@
                     src="images/activites/4_small/vieux-port.jpg" 
                     alt="photos sur le vieux port">
                 </div>
-                <h3 plass="activity-place-title">Vieux Port</h3>
+                <h3 class="activity-place-title">Vieux Port</h3>
             </a>
 
             <a href="#" class="activity-place activity-place-2">
@@ -307,7 +322,7 @@
                     src="images/activites/4_small/fort-de-pomègues.jpg" 
                     alt="photos sur le fort de Pomègues">
                 </div>
-                <h3 plass="activity-place-title">Fort de Pomègues</h3>
+                <h3 class="activity-place-title">Fort de Pomègues</h3>
             </a>
 
             <a href="#" class="activity-place activity-place-3">
@@ -317,7 +332,7 @@
                     src="images/activites/4_small/parc-national-des-calanques.jpg" 
                     alt="photos sur le parc national des calanques">
                 </div>
-                <h3 plass="activity-place-title">Parc National des Calanques</h3>
+                <h3 class="activity-place-title">Parc National des Calanques</h3>
             </a>
 
             <a href="#" class="activity-place activity-place-4">
@@ -327,7 +342,7 @@
                     src="images/activites/4_small/notre-dame-de-la-garde.jpg" 
                     alt="photos sur notre dame de la garde">
                 </div>
-                <h3 plass="activity-place-title">Notre Dame de la Garde</h3>
+                <h3 class="activity-place-title">Notre Dame de la Garde</h3>
             </a>
 
             <a href="#" class="activity-place activity-place-5">
@@ -337,7 +352,7 @@
                     src="images/activites/4_small/îles-du-frioul.jpg" 
                     alt="photos sur l'île du frioul">
                 </div>
-                <h3 plass="activity-place-title">Île du Frioul</h3>
+                <h3 class="activity-place-title">Île du Frioul</h3>
             </a>
 
             <a href="#" class="activity-place activity-place-6">
@@ -347,7 +362,7 @@
                     src="images/activites/4_small/parc-longchamp.jpg" 
                     alt="photos sur le parc longchamp">
                 </div>
-                <h3 plass="activity-place-title">Parc Longchamp</h3>
+                <h3 class="activity-place-title">Parc Longchamp</h3>
             </a>
         </section>
     </main>

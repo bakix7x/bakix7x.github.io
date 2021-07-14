@@ -274,7 +274,7 @@ body{
   .hosting-main-article-price {
   margin: 0.25rem 0.75rem 0.25rem 0.75rem;
   }
-  .hosting-main-article-price-€ {
+  .hosting-popular-main-article-price-euro {
   font-weight: bold;
   }
   .hosting-main-article-star {
@@ -323,6 +323,7 @@ body{
   .hosting-popular-info {
   display: flex;
   flex-direction: column;
+  margin-left: 1rem;
   }
   .hostingPopularWrapcontentContentWhitespace {
   flex: 1;
@@ -344,7 +345,7 @@ body{
   }
   
   .activity-place {
-  box-shadow: 0 0 20px rgba(0 0 0 0.2);
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
   border-radius: 1rem;
   overflow: hidden;
   display: flex;

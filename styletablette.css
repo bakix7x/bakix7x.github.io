@@ -11,10 +11,10 @@
    /* Recherche Tablette */
   
    @media screen and (min-width: 601px) {
-    .searchFormSubmitinputText {
+    .searchform-submit-input-web {
       display: block;
     }
-    .searchFormSubmitinputIcon {
+    .searchform-submit-input-mobil {
       display: none;
     }
     }
